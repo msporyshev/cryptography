@@ -21,7 +21,7 @@ enum class DesMode {
     CFB,
 };
 
-int IP[BLOCK_SIZE] = {
+const int IP[BLOCK_SIZE] = {
     58, 50, 42, 34, 26, 18, 10, 2,
     60, 52, 44, 36, 28, 20, 12, 4,
     62, 54, 46, 38, 30, 22, 14, 6,
@@ -32,7 +32,7 @@ int IP[BLOCK_SIZE] = {
     63, 55, 47, 39, 31, 23, 15, 7
 };
 
-int IP_INV[BLOCK_SIZE] = {
+const int IP_INV[BLOCK_SIZE] = {
     40, 8, 48, 16, 56, 24, 64, 32,
     39, 7, 47, 15, 55, 23, 63, 31,
     38, 6, 46, 14, 54, 22, 62, 30,
